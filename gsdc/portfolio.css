@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background:black;
+    width: 250px;
+    font-family: 'Zen Dots', cursive;
+    height: 100vh;
+    font-weight: bolder;
+}
+
+.sidebar nav{
+    padding: 58px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 17px;
+    padding: 33px 0;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(51, 177, 51);
+}
+
+.main{
+    background: linear-gradient(to right, #000000, #0f9b0f);
+    width: 90vw;
+}
+
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: black;
+    height: 30vw;
+    width: 65vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content:space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    font-family: 'Zen Dots', cursive;
+    color: rgb(51, 177, 51);
+
+}
+
+.hello{
+    font-size: 33px;
+}
+
+.name{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.about{
+    
+    font-size: 22px;
+   
+}
+
+.button{
+    margin-top: 24px;
+}
+
+.button button{
+    font-size: 18px;
+    border-radius: 111px;
+    background-color: rgb(51, 177, 51);
+    color:  rgb(0, 0, 0);
+    padding: 5px;
+    margin: auto;
+    font-family: 'Zen Dots', cursive;
+
+}
+
+.button button:hover{
+    background-color: black;
+    color: rgb(51, 177, 51);
+    border: 2px solid rgb(51, 177, 51);
+}
+
+
+.contactform {
+    padding:0 100px ;  
+    padding-top: 144px;
+    font-family: 'Zen Dots', cursive;
+    color:  rgb(51, 177, 51);
+
+}
+
+.contactform h1{
+    font-family: 'Zen Dots', cursive;
+    text-align: center;
+}
+
+.contactform form div{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contactform form div input{
+    width: 260px;
+    background: rgb(0, 0, 0);
+    height: 27px;
+    border-radius: 20px;
+}
+
+#emailHelp{
+    padding: 2px 0;
+    color:rgb(95, 122, 95);
+    font-size: 10px;
+
+}
+
+
